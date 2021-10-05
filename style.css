@@ -84,6 +84,9 @@ a:hover{
         display: block;
         cursor: pointer;
     }
+    div.Foto-div{
+        padding-left:0rem;
+    }
 }
 .burger:hover{
     background-color: #8a6b7c;
@@ -98,4 +101,76 @@ a:hover{
     to{
         opacity:1;
     }
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(238, 238, 238);
+}
+.Title{
+    text-align: center;
+    padding-top: 30px;
+    color:#5D4954;
+    display: block;
+    font-size:40px;
+    transition: 0.5s ease-in;
+
+}
+.Title:hover{
+    letter-spacing: 4.5px;
+}
+
+.Foto-div {
+    padding-top: 10rem;
+    padding-left: 10rem;
+    padding-right: 2.5rem;
+    display: flex;
+    background-color:#5D4954;
+}
+.Foto-div img{
+    border-radius: 5px;
+    height:300px;
+    padding-right:50px;
+    transition: 0.25s ease-in
+}
+.Foto-div h1{
+    display:inline-block;
+    box-sizing: content-box;
+    transition: 0.75s ease-in-out;
+    padding-left:30px;
+}
+.Foto-div h1:hover{
+    letter-spacing: 5px;
+}
+.Foto-div img:hover{
+    opacity: 0.75
+}
+.Foto-div p{
+    align-items: center;
+    display: block;
+    padding-top: 40px;
+    padding-bottom:60px;
+}
+.Foto-div div{
+    background-color:#8a6b7c;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(238, 238, 238);
+    padding-left: 30px;
+}
+.Title-color{
+    color:#8a6b7c;
+}
+.e-mail{
+    align-items: center;
+    display: block;
+    padding-top: 40px;
+    padding-bottom:60px;
+    font-family: 'Poppins', sans-serif;
+    padding-right:20rem;
+    padding-left:30px;
 }
