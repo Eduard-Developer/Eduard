@@ -174,3 +174,9 @@ p{
     padding-right:20rem;
     padding-left:30px;
 }
+.e-mail:hover{
+    color:#614b57;
+}
+.e-mail{
+    transition:0.2s ease-in;
+}
