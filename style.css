@@ -115,15 +115,17 @@ h1{
     transition: 0.5s ease-in;
 
 }
-.Title:hover{
-    letter-spacing: 4.5px;
-}
+
 
 .Foto-div {
     padding-top: 10rem;
     padding-left: 10rem;
     padding-right: 2.5rem;
     display: flex;
+    flex: box
+    
+    ;
+    height: 100% !important;
     background-color:#5D4954;
 }
 .Foto-div img{
@@ -179,4 +181,7 @@ p{
 }
 .e-mail{
     transition:0.2s ease-in;
+}
+div .Foto-div{
+    height: 100%;
 }
