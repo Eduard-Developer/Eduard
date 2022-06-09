@@ -16,7 +16,10 @@ nav{
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 20px;
+    transition: 0.125s ease-in;
 }
+
+
 .nav-links{
     display: flex;
     justify-content: space-around;
@@ -41,7 +44,7 @@ a:hover{
 }
 
 .logo:hover{
-    color:#8a6b7c;
+    opacity: 50%;
     
 }
 
