@@ -188,3 +188,21 @@ p{
 div .Foto-div{
     height: 100%;
 }
+
+.Githublink{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.Githublink a{
+    color: black;
+    font-size: 25px;
+    font-weight: normal;
+    border: 1px;
+    border-color:black; 
+}
+.Githublink a:hover{
+    color: grey;
+}
