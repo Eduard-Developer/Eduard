@@ -206,3 +206,17 @@ div .Foto-div{
 .Githublink a:hover{
     color: grey;
 }
+.projectslist{
+
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.projectslist a ul{
+    letter-spacing: 3px;
+    padding-right: 50px;
+    margin:5px;
+}
+.projectslist a ul:hover{
+    cursor: default;
+}
