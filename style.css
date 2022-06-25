@@ -27,7 +27,7 @@ nav{
 }
 a{
     text-decoration: none;
-    color:rgb(238, 238, 238);
+    color:rgb(255, 255, 255);
     letter-spacing: 3px;
     font-weight: bold;
     font-size: 14px;
@@ -107,7 +107,7 @@ a:hover{
 }
 h1{
     font-family: 'Poppins', sans-serif;
-    color: rgb(238, 238, 238);
+    color: rgb(255, 255, 255);
 }
 .Title{
     text-align: center;
@@ -125,11 +125,7 @@ h1{
     padding-left: 10rem;
     padding-right: 2.5rem;
     display: flex;
-    flex: box
-    
-    ;
     height: 100% !important;
-    background-color:#5D4954;
 }
 .Foto-div img{
     border-radius: 5px;
@@ -156,7 +152,7 @@ h1{
     padding-bottom:60px;
 }
 .Foto-div div{
-    background-color:#8a6b7c;
+
     border-radius: 2px;
     display: flex;
     justify-content: center;
@@ -164,7 +160,7 @@ h1{
 }
 p{
     font-family: 'Poppins', sans-serif;
-    color: rgb(238, 238, 238);
+    color: rgb(0, 0, 0);
     padding-left: 30px;
 }
 .Title-color{
@@ -219,4 +215,12 @@ div .Foto-div{
 }
 .projectslist a ul:hover{
     cursor: default;
+}
+
+.indexintro{
+    color:black;
+}
+.backgrndclr{
+    border-style: solid;
+    border-color:black;
 }
