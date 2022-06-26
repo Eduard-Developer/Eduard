@@ -3,6 +3,9 @@
     padding:0px;
     box-sizing: border-box;
 }
+body{
+    /*background-image: linear-gradient(white, #5D4954 );*/
+}
 nav{
     display: flex;
     justify-content: space-around;
@@ -90,6 +93,9 @@ a:hover{
     div.Foto-div{
         padding-left:0rem;
     }
+    .test{
+        height: 50px;
+    }
 }
 .burger:hover{
     background-color: #8a6b7c;
@@ -138,9 +144,6 @@ h1{
     box-sizing: content-box;
     transition: 0.75s ease-in-out;
     padding-left:30px;
-}
-.Foto-div h1:hover{
-    letter-spacing: 5px;
 }
 .Foto-div img:hover{
     opacity: 0.75
@@ -223,4 +226,14 @@ div .Foto-div{
 .backgrndclr{
     border-style: solid;
     border-color:black;
+    padding-bottom: 100px !important;
+    padding-left: 10px;
+}
+.test{
+    width: 100%;
+    height: 100px;
+    background-color:#5D4954;
+    position: fixed;
+    bottom: 0;
+
 }
