@@ -3,9 +3,9 @@
     padding:0px;
     box-sizing: border-box;
 }
-body{
-    /*background-image: linear-gradient(white, #5D4954 );*/
-}
+/*body{
+    background-image: linear-gradient(white, #5D4954 );
+}*/
 nav{
     display: flex;
     justify-content: space-around;
@@ -229,11 +229,14 @@ div .Foto-div{
     padding-bottom: 100px !important;
     padding-left: 10px;
 }
-.test{
+.footerbar{
     width: 100%;
     height: 100px;
-    background-color:#5D4954;
+    background-color:#5D4954 !important;
     position: fixed;
     bottom: 0;
-
+    text-align: center;
+}
+.footerbar li  {
+    padding-top: 45px;
 }
