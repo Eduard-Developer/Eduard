@@ -11,7 +11,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: #5D4954;
+    background-color: rgb(82, 82, 255);
     font-family: 'Poppins', sans-serif;
 }
 .logo{
