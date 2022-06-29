@@ -17,7 +17,4 @@ burger.addEventListener("click", () => {
     });
     });
 }
- let num1
-
- Console.log(num1)
 navSlide();

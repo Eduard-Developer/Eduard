@@ -37,7 +37,7 @@ a{
     
 }
 a:hover{
-    color: #8a6b7c;
+    color: rgb(168, 168, 250);
     
 }
 
@@ -98,7 +98,7 @@ a:hover{
     }
 }
 .burger:hover{
-    background-color: #8a6b7c;
+    background-color: rgb(168, 168, 250);
 }
 .nav-active{
     transform:translateX(0%);
@@ -232,7 +232,7 @@ div .Foto-div{
 .footerbar{
     width: 100%;
     height: 100px;
-    background-color:#5D4954 !important;
+    background-color: rgb(82, 82, 255) !important;
     position: fixed;
     bottom: 0;
     text-align: center;
