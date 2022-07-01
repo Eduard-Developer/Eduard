@@ -66,9 +66,9 @@ a:hover{
     }
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:600px){ /* For backup use 768 */
     body{
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     .nav-links{
         position: absolute;
@@ -167,7 +167,7 @@ p{
     padding-left: 30px;
 }
 .Title-color{
-    color:#8a6b7c;
+    color:rgb(82, 82, 255);
 }
 .e-mail{
     align-items: center;
@@ -237,6 +237,9 @@ div .Foto-div{
     bottom: 0;
     text-align: center;
 }
-.footerbar li  {
+.footerbar li {
     padding-top: 45px;
+}
+.footerbar li a{
+    letter-spacing:normal;
 }
