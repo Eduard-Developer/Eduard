@@ -73,6 +73,7 @@ a:hover{
 
 @media screen and (max-width:480px){ /* For backup use 768 */
     body{
+        
     }
     .nav-links{
         position: absolute;
@@ -122,7 +123,7 @@ h1{
 .Title{
     text-align: center;
     padding-top: 30px;
-    color:#5D4954;
+    color: black;
     display: block;
     font-size:40px;
     transition: 0.5s ease-in;
