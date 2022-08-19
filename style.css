@@ -68,7 +68,6 @@ a:hover{
 
 @media screen and (min-width: 481px) {
 
-    
 }
 
 @media screen and (max-width:480px){ /* For backup use 768 */
@@ -211,19 +210,18 @@ div .Foto-div{
     color: grey;
 }
 .projectslist{
-
+    
     display: flex;
     justify-content: center;
     padding-top: 100px;
 }
 .projectslist a ul{
+    color:black;
     letter-spacing: 3px;
     padding-right: 50px;
     margin:5px;
 }
-.projectslist a ul:hover{
-    cursor: default;
-}
+
 
 .indexintro{
     color:black;
