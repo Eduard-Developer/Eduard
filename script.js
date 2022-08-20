@@ -18,3 +18,9 @@ burger.addEventListener("click", () => {
     });
 }
 navSlide();
+
+//function windowalert(){
+
+window.alert("Willkommen!");
+
+//}

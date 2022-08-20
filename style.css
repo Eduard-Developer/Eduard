@@ -46,6 +46,9 @@ a:hover{
 
 }
 
+.logo{
+    color: white !important;
+}
 .logo:hover{
     opacity: 50%;
     
@@ -71,9 +74,7 @@ a:hover{
 }
 
 @media screen and (max-width:480px){ /* For backup use 768 */
-    body{
-        
-    }
+
     .nav-links{
         position: absolute;
         right:0px;
@@ -117,7 +118,7 @@ a:hover{
 }
 h1{
     font-family: 'Poppins', sans-serif;
-    color: rgb(255, 255, 255);
+    color: black;
 }
 .Title{
     text-align: center;
@@ -183,10 +184,13 @@ p{
     padding-left:30px;
 }
 .e-mail:hover{
-    color:#614b57;
+    opacity:0.5;
 }
 .e-mail{
     transition:0.2s ease-in;
+    color: rgb(168,168,250);
+    font-weight: bold;
+    font-size: 30px;
 }
 div .Foto-div{
     height: 100%;
@@ -245,4 +249,7 @@ div .Foto-div{
 }
 .footerbar li a{
     letter-spacing:normal;
+}
+a h1{
+    color:white;
 }
