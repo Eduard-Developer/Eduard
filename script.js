@@ -1,3 +1,13 @@
+const kontakt = document.getElementById('kontakt');
+function onClick(){      
+	
+
+    console.log("it is finally ok and the window.alert() was the actual fault");
+}
+if(kontakt){
+    kontakt.addEventListener("click", onClick(), false);
+}
+
 /*const navSlide = () =>{
    const nav = document.querySelector(".nav-links");
    const burger = document.querySelector(".burger");
@@ -17,25 +27,27 @@ burger.addEventListener("click", () => {
     //});
 
     window.alert("Work in progress!")
-    });
-}
-navSlide();
+    });}*/
 
-//function windowalert(){
 
-window.alert("Willkommen!");
 
-//}*/
-const _kontakt = () => {
-    const _kontaktformular = document.getElementsByClassName("kontakt");
-}
+
+
+
+
+/*const _kontaktformular = document.getElementsByClassName("kontakt");
+
 
 
 _kontaktformular.addEventListener("click", () => {
-
+    console.log("Work in progress!")
     window.alert("Work in progress!");
 
 
-})
+})*/
 
-_kontakt(); 
+
+//_kontaktformular();
+
+
+ 
